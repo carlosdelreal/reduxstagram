@@ -28,8 +28,8 @@ class Photo extends React.Component {
 							</span>
 						</Link>
 					</div>
-					</figcaption>
-				</figure>
+				</figcaption>
+			</figure>
 		)
 	}
 }
