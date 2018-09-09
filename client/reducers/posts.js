@@ -1,5 +1,5 @@
 // The reducer does the job of maintaining state.
-// Every time that you run (displatch) an action, every single reducer will run
+// Every time that you run (dispatch) an action, every single reducer will run
 // and wether you choose to act on that action or not is up to the reducer.
 // In other words, whenever something happens, all reducers run and changes in state are up to you.
 
@@ -18,7 +18,7 @@ function posts(state = [], action) {
 				{...state[i], likes: state[i].likes + 1},
 				...state.slice(i + 1) // after the one we are updating
 			]
-			
+
 		default:
 			return state;
 	}
